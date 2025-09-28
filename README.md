@@ -10,6 +10,8 @@ AI blogs you should read.
 
 * [NVIDIA Developer Blog](https://developer.nvidia.com/blog/): Deep dive into multiple AI topics.
 * [Connectionism- Thinking Machine blog](https://thinkingmachines.ai/blog/): AI startup. Founded by Mira Murati, former CTO at OpenAI. Solved nondeterminism problem in LLM.
+* [TensorRT LLM tech blogs](https://github.com/NVIDIA/TensorRT-LLM/tree/main/docs/source/blogs/tech_blog): Deep dive into technical techniques/optimizations in one of the leading LLM inference library. (13 posts as of now)
+* [SGLang tech blog](https://lmsys.org/blog/): SGLang is one of the leading LLM serving framework. Most blogs are around SGLang but is rich in technical information.
 
 YouTube channels to follow regularly:
 
@@ -18,4 +20,10 @@ YouTube channels to follow regularly:
 * [PyTorch channel](https://www.youtube.com/@PyTorch/videos): videos of various PyTorch events covering keynotes of technical topics like torch.compile.
 
 ---
+
+## Deep dive into AI concepts [Learn step-by-step]
+
+### Quantization
+
+* [Optimizing FP4 Mixed-Precision Inference on AMD GPUs](https://lmsys.org/blog/2025-09-21-petit-amdgpu/)
 
