@@ -38,4 +38,15 @@ Current SOTA AI/LLM workloads are possible only because of GPUs. Understanding G
 
 * [Post training concepts with SFT, RLHF, RLFR](https://tokens-for-thoughts.notion.site/post-training-101)
 
+## What to contribute in leading AI open-source projects?
 
+Get started in these:
+
+* [SGLang](https://github.com/sgl-project/sglang): LLM serving engine originally from UC Berkeley.
+* [vLLM](https://github.com/vllm-project/vllm): LLM inference engine originally from UC Berkeley.
+* [PyTorch](https://github.com/pytorch/pytorch): Leading AI framework by Meta
+* [TensorFlow](https://github.com/tensorflow/tensorflow): AI framework by Google
+* [TensorRT](https://github.com/NVIDIA/TensorRT): High performance inference library by NVIDIA
+* [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): LLM inference library by NVIDIA
+* [NCCL](https://github.com/NVIDIA/nccl): High performance GPU communication library by NVIDIA
+* See other [NVIDIA libraries](https://github.com/orgs/NVIDIA/repositories?language=&q=&sort=&type=all).
