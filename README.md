@@ -30,6 +30,13 @@ Current SOTA AI/LLM workloads are possible only because of GPUs. Understanding G
 
 * [Understanding GPU architecture with MatMul](https://www.aleksagordic.com/blog/matmul)
 
+## Transformer
+
+
+
+* Encoder-only and Decoder-only models
+* BERT (_insightful_): [BERT as text diffusion step](https://nathan.rs/posts/roberta-diffusion/)
+
 ### Quantization
 
 * [Optimizing FP4 Mixed-Precision Inference on AMD GPUs](https://lmsys.org/blog/2025-09-21-petit-amdgpu/)
@@ -37,6 +44,20 @@ Current SOTA AI/LLM workloads are possible only because of GPUs. Understanding G
 ### Post-training
 
 * [Post training concepts with SFT, RLHF, RLFR](https://tokens-for-thoughts.notion.site/post-training-101)
+
+## Software tools AI
+
+* [vLLM](https://www.aleksagordic.com/blog/vllm): architecture of the leading LLM serving engine.
+
+## Courses/guides to follow
+
+MUST:
+* [CSE223](https://hao-ai-lab.github.io/cse234-w25/): ML Sys by Prof Hao Zhang (rating 10/10)
+
+MAYBE:
+* [CME 295](https://cme295.stanford.edu/syllabus/): Basics of Transformer and LLM
+* [Scaling a model](https://jax-ml.github.io/scaling-book/roofline/) (rating 7/10)
+
 
 ## What to contribute in leading AI open-source projects?
 
