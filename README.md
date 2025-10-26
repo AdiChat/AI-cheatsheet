@@ -8,7 +8,8 @@
 MUST:
 - [ ] [CSE223](https://hao-ai-lab.github.io/cse234-w25/): ML Sys course by Prof Hao Zhang (rating 10/10) by UC San Diego
 - [ ] [CME 295](https://cme295.stanford.edu/syllabus/): Basics of Transformer and LLM course by Stanford University
-- [ ] [AI Engineering Silicon Cheatsheet](): Cheatsheet covering all major concepts in modern AI; Must for reference
+- [ ] [AI Engineering Silicon Cheatsheet](https://amzn.to/3Wl5Tum): Cheatsheet covering all major concepts in modern AI; Must for reference
+- [ ] [The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=first_steps:_training_on_one_gpu): Training LLMs on GPU Clusters
 
 ## Main AI blogs to read regularly (continuous learning)
 
@@ -65,13 +66,14 @@ GPU programming concepts:
 - [ ] [Chunk prefill - SARATHI paper](https://arxiv.org/pdf/2308.16369), [dynamic and continuous batching](https://bentoml.com/llm/inference-optimization/static-dynamic-continuous-batching)
 - [ ] [KV cache offloading](https://bentoml.com/llm/inference-optimization/kv-cache-offloading), [KVcache early reuse](https://developer.nvidia.com/blog/5x-faster-time-to-first-token-with-nvidia-tensorrt-llm-kv-cache-early-reuse/)
 - [ ] [Speculative decoding](https://bentoml.com/llm/inference-optimization/speculative-decoding)
-- [ ] [P/D disaggregation](https://bentoml.com/llm/inference-optimization/prefill-decode-disaggregation), [DistServe P/D disaggregation paper](https://arxiv.org/pdf/2401.09670), 
+- [ ] [P/D disaggregation](https://bentoml.com/llm/inference-optimization/prefill-decode-disaggregation), [DistServe P/D disaggregation paper](https://arxiv.org/pdf/2401.09670)
+- [ ] [MoE using Wide Expert Parallelism EP](https://developer.nvidia.com/blog/scaling-large-moe-models-with-wide-expert-parallelism-on-nvl72-rack-scale-systems/)
 
 * Software tools AI
 - [ ] [vLLM arch](https://www.aleksagordic.com/blog/vllm): architecture of the leading LLM serving engine.
 
 
-## MAYBE courses you may go through
+## MAYBE guides you may go through
 
 - [ ] [Scaling a model](https://jax-ml.github.io/scaling-book/roofline/) (rating 7/10)
 - [ ] [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3): if you want to dive deep into GPU programming
