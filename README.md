@@ -10,6 +10,7 @@ MUST:
 - [ ] [CME 295](https://cme295.stanford.edu/syllabus/): Basics of Transformer and LLM course by Stanford University
 - [ ] [AI Engineering Silicon Cheatsheet](https://amzn.to/3Wl5Tum): Cheatsheet covering all major concepts in modern AI; Must for reference
 - [ ] [The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=first_steps:_training_on_one_gpu): Training LLMs on GPU Clusters
+- [ ] [Llama visualization](https://www.alphaxiv.org/labs/tensor-trace): step by step [analyze each tensor](https://www.alphaxiv.org/labs/fly-through-llama) as it is processed in Llama
 
 ## Main AI blogs to read regularly (continuous learning)
 
@@ -72,6 +73,9 @@ GPU programming concepts:
 * Software tools AI
 - [ ] [vLLM arch](https://www.aleksagordic.com/blog/vllm): architecture of the leading LLM serving engine.
 
+Insights:
+
+- [ ] [MinMax M2 using Full Attention](https://x.com/zpysky1125/status/1983383094607347992): why full attention is better than masked attention?
 
 ## MAYBE guides you may go through
 
