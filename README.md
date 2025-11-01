@@ -59,11 +59,12 @@ GPU programming concepts:
 
 * Post-training
 - [ ] [Post training concepts with SFT, RLHF, RLFR](https://tokens-for-thoughts.notion.site/post-training-101)
+- [ ] [Smol Training Playbook: The Secrets to Building World-Class LLMs](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction)
 
 * Optimizations
 
 - [ ] [LLM Inference optimizations](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/)
-- [ ] 5D parallelism [PP, SP, DP, TP, CP, EP](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/features/parallelisms.html), [parallelism](https://themlsurgeon.substack.com/p/data-parallelism-scaling-llm-training) concept for LLM scaling.
+- [ ] 5D parallelism [PP, SP, DP, TP, CP, EP](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/features/parallelisms.html), [parallelism](https://themlsurgeon.substack.com/p/data-parallelism-scaling-llm-training) concept for LLM scaling. [Parallelism in PyTorch](https://ggrigorev.me/posts/introduction-to-parallelism/)
 - [ ] [Chunk prefill - SARATHI paper](https://arxiv.org/pdf/2308.16369), [dynamic and continuous batching](https://bentoml.com/llm/inference-optimization/static-dynamic-continuous-batching)
 - [ ] [KV cache offloading](https://bentoml.com/llm/inference-optimization/kv-cache-offloading), [KVcache early reuse](https://developer.nvidia.com/blog/5x-faster-time-to-first-token-with-nvidia-tensorrt-llm-kv-cache-early-reuse/)
 - [ ] [Speculative decoding](https://bentoml.com/llm/inference-optimization/speculative-decoding)
