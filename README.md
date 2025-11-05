@@ -6,7 +6,7 @@
 ## Free guides to follow
 
 MUST:
-- [ ] [CSE223](https://hao-ai-lab.github.io/cse234-w25/): ML Sys course by Prof Hao Zhang (rating 10/10) by UC San Diego
+- [ ] [CSE223](https://hao-ai-lab.github.io/cse234-w25/): ML Sys course by Prof Hao Zhang (rating 10/10) by UC San Diego (core engineering LLM serving concepts)
 - [ ] [CME 295](https://cme295.stanford.edu/syllabus/): Basics of Transformer and LLM course by Stanford University
 - [ ] [AI Engineering Silicon Cheatsheet](https://amzn.to/3Wl5Tum): Cheatsheet covering all major concepts in modern AI; Must for reference
 - [ ] [The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=first_steps:_training_on_one_gpu): Training LLMs on GPU Clusters
@@ -15,9 +15,9 @@ MUST:
 ## Main AI blogs to read regularly (continuous learning)
 
 - [ ] [NVIDIA Developer Blog](https://developer.nvidia.com/blog/): Deep dive into multiple AI topics.
-- [ ] [Connectionism- Thinking Machine blog](https://thinkingmachines.ai/blog/): AI startup. Founded by Mira Murati, former CTO at OpenAI. Solved nondeterminism problem in LLM.
 - [ ] [TensorRT LLM tech blogs](https://github.com/NVIDIA/TensorRT-LLM/tree/main/docs/source/blogs/tech_blog): Deep dive into technical techniques/optimizations in one of the leading LLM inference library. (13 posts as of now)
 - [ ] [SGLang tech blog](https://lmsys.org/blog/): SGLang is one of the leading LLM serving framework. Most blogs are around SGLang but is rich in technical information.
+- [ ] [Connectionism- Thinking Machine blog](https://thinkingmachines.ai/blog/): AI startup. Founded by Mira Murati, former CTO at OpenAI. Solved nondeterminism problem in LLM.
 
 YouTube channels to follow regularly:
 
@@ -32,13 +32,14 @@ _Listed only high-quality resources. No need to read 100s of posts to get an ide
 
 * **GPU architecture**
 <br> Current SOTA AI/LLM workloads are possible only because of GPUs. Understanding GPU architecture gives you an engineering edge.
-- [ ] [Understanding GPU architecture with MatMul](https://www.aleksagordic.com/blog/matmul)
+- [ ] [Understanding GPU architecture with MatMul](https://www.aleksagordic.com/blog/matmul), [intuition about GPUs](https://jax-ml.github.io/scaling-book/gpus/)
 - [ ] [GPU Shared memory banks / microbenchmarks](https://feldmann.nyc/blog/smem-microbenchmarks)
 GPU programming concepts:
 - [ ] [CUDA programming model](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/), [GPU memory management](https://www.nvidia.com/en-us/on-demand/session/gtc24-s62550/): Mark Harris's GTC Talk on Coalesced Memory Access, [Prefix Sum/ Scan in GPU](https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-39-parallel-prefix-sum-scan-cuda)
+- [ ] [Programming Massively Parallel Processors](https://www.youtube.com/playlist?list=PLRRuQYjFhpmubuwx-w8X964ofVkW1T8O4) series on YT
 
 * **Transformer**
-- [ ] Encoder-only and Decoder-only models
+- [ ] [Transformer overall](https://www.krupadave.com/articles/everything-about-transformers): Encoder-only and Decoder-only models
 - [ ] BERT (_insightful_): [BERT as text diffusion step](https://nathan.rs/posts/roberta-diffusion/)
 - [ ] [Memory requirements for LLM](https://themlsurgeon.substack.com/p/the-memory-anatomy-of-large-language). There are 4 parts: activation, parameter, gradient, optimizer states.
 
@@ -47,6 +48,12 @@ GPU programming concepts:
 - [ ] FlashAttention (paper1, paper for v2, paper for v3), Online softmax
 - [ ] Ring Attention (links to Context Parallelism CP): Handles large sequence length, Flex Attention, Masking
 - [ ] KV cache, FP8 KV cache, Paged Attention
+
+**Core operations**
+
+- [ ] MoE (Mixture of experts)
+- [ ] GEMM / MatMul
+- [ ] Embedding, RoPE
 
 * **Quantization**
 
@@ -80,7 +87,8 @@ Insights:
 
 ## MAYBE guides you may go through
 
-- [ ] [Scaling a model](https://jax-ml.github.io/scaling-book/roofline/) (rating 7/10)
+- [ ] [Scaling a model](https://jax-ml.github.io/scaling-book/) by Jax (Google) (rating 7/10)
+- [ ] [Smol training playbook](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction) by HuggingFace to train LLMs
 - [ ] [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3): if you want to dive deep into GPU programming
 
 ## What to contribute in leading AI open-source projects?
