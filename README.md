@@ -3,7 +3,7 @@
 
 ---
 
-## Free guides to follow
+## End to end free guides to follow
 
 MUST:
 - [ ] [CSE223](https://hao-ai-lab.github.io/cse234-w25/): ML Sys course by Prof Hao Zhang (rating 10/10) by UC San Diego (core engineering LLM serving concepts)
@@ -84,6 +84,15 @@ GPU programming concepts:
 Insights:
 
 - [ ] [MinMax M2 using Full Attention](https://x.com/zpysky1125/status/1983383094607347992): why full attention is better than masked attention?
+
+## Interesting papers you MUST read
+
+- [ ] [AI and memory wall](https://arxiv.org/pdf/2403.14123): How memory is the main bottleneck for LLM?
+- [ ] [LLMs don't just memorize, they build a geometric map that helps them reason](https://arxiv.org/pdf/2510.26745) by Google
+
+<img height="100" alt="image" src="https://github.com/user-attachments/assets/b0bcbfd3-5e89-4133-89a3-55e858fa82a5" /> <img height="100" alt="image" src="https://github.com/user-attachments/assets/50fbc127-b4b2-4bb9-8f02-cc72ad126da0" />
+
+
 
 ## MAYBE guides you may go through
 
