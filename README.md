@@ -34,6 +34,8 @@ MUST:
 - [ ] [LLMs don't just memorize, they build a geometric map that helps them reason](https://arxiv.org/pdf/2510.26745) by Google
 - [ ] [Self-Adapting Language Models](https://arxiv.org/pdf/2506.10943) by MIT
 - [ ] [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171) by Meta
+- [ ] [Pre-training under infinite compute](https://arxiv.org/pdf/2509.14786) by Stanford University
+- [ ] [OverFill: Two-Stage Models for Efficient Language Model Decoding](https://arxiv.org/pdf/2508.08446) by Cornell University
 
 ---
 
@@ -85,7 +87,11 @@ GPU programming concepts:
 
 * **Quantization**
 
-- [ ] [Quantization basics](https://themlsurgeon.substack.com/p/the-machine-learning-surgeons-guide), [INT8 quantization using QAT](https://developer.nvidia.com/blog/achieving-fp32-accuracy-for-int8-inference-using-quantization-aware-training-with-tensorrt/), [LLM quantization with PTQ](https://developer.nvidia.com/blog/optimizing-llms-for-performance-and-accuracy-with-post-training-quantization/), [FP8 datatype](https://developer.nvidia.com/blog/floating-point-8-an-introduction-to-efficient-lower-precision-ai-training/), [AWQ](https://hamzaelshafie.bearblog.dev/awq-activation-aware-weight-quantisation/)
+<img height="100" alt="image" src="https://github.com/user-attachments/assets/ad731cfe-ede3-4e53-b28b-e48221aab6c9" />
+
+- [ ] [Quantization basics](https://themlsurgeon.substack.com/p/the-machine-learning-surgeons-guide)
+- [ ] [Different data type stimulations](https://www.quant.exposed/)
+- [ ] [INT8 quantization using QAT](https://developer.nvidia.com/blog/achieving-fp32-accuracy-for-int8-inference-using-quantization-aware-training-with-tensorrt/), [LLM quantization with PTQ](https://developer.nvidia.com/blog/optimizing-llms-for-performance-and-accuracy-with-post-training-quantization/), [FP8 datatype](https://developer.nvidia.com/blog/floating-point-8-an-introduction-to-efficient-lower-precision-ai-training/), [AWQ](https://hamzaelshafie.bearblog.dev/awq-activation-aware-weight-quantisation/)
 - [ ] [Per-tensor and per-block scaling](https://developer.nvidia.com/blog/per-tensor-and-per-block-scaling-strategies-for-effective-fp8-training/)
 - [ ] [NVFP4 training](https://developer.nvidia.com/blog/nvfp4-trains-with-precision-of-16-bit-and-speed-and-efficiency-of-4-bit/), [Optimizing FP4 Mixed-Precision Inference on AMD GPUs](https://lmsys.org/blog/2025-09-21-petit-amdgpu/), Recent [LLM quantization progress](https://blog.openvino.ai/blog-posts/q325-technology-update---low-precision-and-model-optimization)
 - [ ] [Quantization on CPU (GGUF, AWQ, GPTQ)](https://www.ionio.ai/blog/llms-on-cpu-the-power-of-quantization-with-gguf-awq-gptq), [GGUF quantization method](https://www.reddit.com/r/LocalLLaMA/comments/1ba55rj/overview_of_gguf_quantization_methods/)
