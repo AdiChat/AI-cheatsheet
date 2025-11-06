@@ -1,9 +1,21 @@
-# AI cheatsheet
+# AI Engineering cheatsheet
 *ai/ml resources to master state-of-the-art (SOTA) techniques from engineers and researchers* 🧠💻
 
 ---
 
+Contents:
+* **End to end free guides to follow**
+* Interesting papers you MUST read
+* Main AI blogs to read regularly (continuous learning)
+* **Deep dive into all core AI concepts** [Learn step-by-step]
+* MAYBE guides you may go through
+* Want to contribute in leading AI open-source projects?
+
+---
+
 ## End to end free guides to follow
+
+<img height="100" alt="image" src="https://github.com/user-attachments/assets/82fdef14-cc94-4a78-bdd0-fd5e7d38bd0e" /> <img height="100" alt="image" src="https://github.com/user-attachments/assets/b7d30827-1b3d-4bb9-b792-8f47aa98e529" />
 
 MUST:
 - [ ] [CSE223](https://hao-ai-lab.github.io/cse234-w25/): ML Sys course by Prof Hao Zhang (rating 10/10) by UC San Diego (core engineering LLM serving concepts)
@@ -11,6 +23,19 @@ MUST:
 - [ ] [AI Engineering Silicon Cheatsheet](https://amzn.to/3Wl5Tum): Cheatsheet covering all major concepts in modern AI; Must for reference
 - [ ] [The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=first_steps:_training_on_one_gpu): Training LLMs on GPU Clusters
 - [ ] [Llama visualization](https://www.alphaxiv.org/labs/tensor-trace): step by step [analyze each tensor](https://www.alphaxiv.org/labs/fly-through-llama) as it is processed in Llama
+
+---
+
+## Interesting papers you MUST read
+
+<img height="100" alt="image" src="https://github.com/user-attachments/assets/b0bcbfd3-5e89-4133-89a3-55e858fa82a5" /> <img height="100" alt="image" src="https://github.com/user-attachments/assets/50fbc127-b4b2-4bb9-8f02-cc72ad126da0" />
+
+- [ ] [AI and memory wall](https://arxiv.org/pdf/2403.14123): How memory is the main bottleneck for LLM?
+- [ ] [LLMs don't just memorize, they build a geometric map that helps them reason](https://arxiv.org/pdf/2510.26745) by Google
+- [ ] [Self-Adapting Language Models](https://arxiv.org/pdf/2506.10943) by MIT
+- [ ] [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171) by Meta
+
+---
 
 ## Main AI blogs to read regularly (continuous learning)
 
@@ -44,22 +69,25 @@ GPU programming concepts:
 - [ ] [Memory requirements for LLM](https://themlsurgeon.substack.com/p/the-memory-anatomy-of-large-language). There are 4 parts: activation, parameter, gradient, optimizer states.
 
 * **Attention**
-- [ ] Multi-head attention (MHA), Multi-Query attention (MQA), Group Query Attention (GQA), MLA (used in DeepSeek)
-- [ ] FlashAttention (paper1, paper for v2, paper for v3), Online softmax
-- [ ] Ring Attention (links to Context Parallelism CP): Handles large sequence length, Flex Attention, Masking
-- [ ] KV cache, FP8 KV cache, Paged Attention
+
+<img height="100" alt="image" src="https://github.com/user-attachments/assets/610b462d-ae36-4b25-a657-fd05f210eb53" /> <img height="100" alt="image" src="https://github.com/user-attachments/assets/39dabb64-bd91-40a0-870c-d1218ac005c3" />
+
+- [ ] [Self-attention / Multi-head attention](https://magazine.sebastianraschka.com/p/understanding-and-coding-self-attention) (MHA), Multi-Query attention (MQA), [Group Query Attention](https://www.ibm.com/think/topics/grouped-query-attention) (GQA), MLA (used in DeepSeek)
+- [ ] [FlashAttention](https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad) ([paper1](https://arxiv.org/abs/2205.14135), paper for [v2](https://arxiv.org/abs/2307.08691), paper for [v3](https://tridao.me/blog/2024/flash3/), Online softmax, [Implementation](https://github.com/Dao-AILab/flash-attention) by Tri Dao 
+- [ ] [Ring Attention](https://christianjmills.com/posts/cuda-mode-notes/lecture-013/) (links to Context Parallelism CP): Handles large sequence length, [Flex Attention](https://arxiv.org/abs/2412.05496) by PyTorch
+- [ ] KV cache, FP8 KV cache, [Paged Attention](https://hamzaelshafie.bearblog.dev/paged-attention-from-first-principles-a-view-inside-vllm/)
 
 **Core operations**
 
-- [ ] MoE (Mixture of experts)
+- [ ] [MoE](https://www.ibm.com/think/topics/mixture-of-experts) (Mixture of experts)
 - [ ] GEMM / MatMul
 - [ ] Embedding, RoPE
 
 * **Quantization**
 
-- [ ] [Quantization basics](https://themlsurgeon.substack.com/p/the-machine-learning-surgeons-guide), [INT8 quantization using QAT](https://developer.nvidia.com/blog/achieving-fp32-accuracy-for-int8-inference-using-quantization-aware-training-with-tensorrt/), [LLM quantization with PTQ](https://developer.nvidia.com/blog/optimizing-llms-for-performance-and-accuracy-with-post-training-quantization/), [FP8 datatype](https://developer.nvidia.com/blog/floating-point-8-an-introduction-to-efficient-lower-precision-ai-training/)
+- [ ] [Quantization basics](https://themlsurgeon.substack.com/p/the-machine-learning-surgeons-guide), [INT8 quantization using QAT](https://developer.nvidia.com/blog/achieving-fp32-accuracy-for-int8-inference-using-quantization-aware-training-with-tensorrt/), [LLM quantization with PTQ](https://developer.nvidia.com/blog/optimizing-llms-for-performance-and-accuracy-with-post-training-quantization/), [FP8 datatype](https://developer.nvidia.com/blog/floating-point-8-an-introduction-to-efficient-lower-precision-ai-training/), [AWQ](https://hamzaelshafie.bearblog.dev/awq-activation-aware-weight-quantisation/)
 - [ ] [Per-tensor and per-block scaling](https://developer.nvidia.com/blog/per-tensor-and-per-block-scaling-strategies-for-effective-fp8-training/)
-- [ ] [NVFP4 training](https://developer.nvidia.com/blog/nvfp4-trains-with-precision-of-16-bit-and-speed-and-efficiency-of-4-bit/), [Optimizing FP4 Mixed-Precision Inference on AMD GPUs](https://lmsys.org/blog/2025-09-21-petit-amdgpu/)
+- [ ] [NVFP4 training](https://developer.nvidia.com/blog/nvfp4-trains-with-precision-of-16-bit-and-speed-and-efficiency-of-4-bit/), [Optimizing FP4 Mixed-Precision Inference on AMD GPUs](https://lmsys.org/blog/2025-09-21-petit-amdgpu/), Recent [LLM quantization progress](https://blog.openvino.ai/blog-posts/q325-technology-update---low-precision-and-model-optimization)
 - [ ] [Quantization on CPU (GGUF, AWQ, GPTQ)](https://www.ionio.ai/blog/llms-on-cpu-the-power-of-quantization-with-gguf-awq-gptq), [GGUF quantization method](https://www.reddit.com/r/LocalLLaMA/comments/1ba55rj/overview_of_gguf_quantization_methods/)
 ---
 - [ ] [Pruning and distillation](https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/)
@@ -70,12 +98,12 @@ GPU programming concepts:
 
 * Optimizations
 
-- [ ] [LLM Inference optimizations](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/)
+- [ ] [LLM Inference optimizations](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/); [optimizations v2](https://gaurigupta19.github.io/llms/distributed%20ml/optimization/2025/10/02/efficient-ml.html)
 - [ ] 5D parallelism [PP, SP, DP, TP, CP, EP](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/features/parallelisms.html), [parallelism](https://themlsurgeon.substack.com/p/data-parallelism-scaling-llm-training) concept for LLM scaling. [Parallelism in PyTorch](https://ggrigorev.me/posts/introduction-to-parallelism/)
 - [ ] [Chunk prefill - SARATHI paper](https://arxiv.org/pdf/2308.16369), [dynamic and continuous batching](https://bentoml.com/llm/inference-optimization/static-dynamic-continuous-batching)
 - [ ] [KV cache offloading](https://bentoml.com/llm/inference-optimization/kv-cache-offloading), [KVcache early reuse](https://developer.nvidia.com/blog/5x-faster-time-to-first-token-with-nvidia-tensorrt-llm-kv-cache-early-reuse/)
-- [ ] [Speculative decoding](https://bentoml.com/llm/inference-optimization/speculative-decoding)
-- [ ] [P/D disaggregation](https://bentoml.com/llm/inference-optimization/prefill-decode-disaggregation), [DistServe P/D disaggregation paper](https://arxiv.org/pdf/2401.09670)
+- [ ] [Speculative decoding](https://bentoml.com/llm/inference-optimization/speculative-decoding), [Look-ahead reasoning](https://hao-ai-lab.github.io/blogs/lookaheadreasoning/)
+- [ ] [P/D disaggregation](https://hao-ai-lab.github.io/blogs/distserve-retro/), [DistServe P/D disaggregation paper](https://arxiv.org/pdf/2401.09670)
 - [ ] [MoE using Wide Expert Parallelism EP](https://developer.nvidia.com/blog/scaling-large-moe-models-with-wide-expert-parallelism-on-nvl72-rack-scale-systems/)
 
 * Software tools AI
@@ -85,22 +113,15 @@ Insights:
 
 - [ ] [MinMax M2 using Full Attention](https://x.com/zpysky1125/status/1983383094607347992): why full attention is better than masked attention?
 
-## Interesting papers you MUST read
-
-- [ ] [AI and memory wall](https://arxiv.org/pdf/2403.14123): How memory is the main bottleneck for LLM?
-- [ ] [LLMs don't just memorize, they build a geometric map that helps them reason](https://arxiv.org/pdf/2510.26745) by Google
-
-<img height="100" alt="image" src="https://github.com/user-attachments/assets/b0bcbfd3-5e89-4133-89a3-55e858fa82a5" /> <img height="100" alt="image" src="https://github.com/user-attachments/assets/50fbc127-b4b2-4bb9-8f02-cc72ad126da0" />
-
-
-
 ## MAYBE guides you may go through
 
 - [ ] [Scaling a model](https://jax-ml.github.io/scaling-book/) by Jax (Google) (rating 7/10)
 - [ ] [Smol training playbook](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction) by HuggingFace to train LLMs
 - [ ] [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3): if you want to dive deep into GPU programming
+- [ ] (blog) [OpenVINO optimizations and engineering](https://blog.openvino.ai/) by Intel
+- [ ] (blog) [GPU MODE lecture notes](https://christianjmills.com/series/notes/cuda-mode-notes.html)
 
-## What to contribute in leading AI open-source projects?
+## Want to contribute in leading AI open-source projects?
 
 Get started in these:
 
