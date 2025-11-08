@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/edabaa26-cf70-41a4-9d6f-71ec45d96f12" /># AI Engineering cheatsheet
+# AI Engineering cheatsheet
 *ai/ml resources to master state-of-the-art (SOTA) techniques from engineers and researchers* 🧠💻
 
 ---
