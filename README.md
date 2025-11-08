@@ -81,7 +81,7 @@ GPU programming concepts:
 
 **Core operations**
 
-- [ ] [GEMM](https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html) / MatMul, [API of GEMM](https://www.intel.com/content/www/us/en/docs/onemkl/developer-reference-dpcpp/2025-0/gemm.html), [GEMM as core of AI](https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/)
+- [ ] [GEMM](https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html) / MatMul, [API of GEMM](https://www.intel.com/content/www/us/en/docs/onemkl/developer-reference-dpcpp/2025-0/gemm.html), [GEMM as core of AI](https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/), [W4A8 GEMM Kernel](https://arxiv.org/pdf/2509.01229)
 - [ ] [MoE](https://www.ibm.com/think/topics/mixture-of-experts) (Mixture of experts)
 - [ ] [Embedding](https://huggingface.co/spaces/hesamation/primer-llm-embedding?section=bert_(bidirectional_encoder_representations_from_transformers)) (deepdive), RoPE ([paper](https://arxiv.org/pdf/2104.09864))
 
