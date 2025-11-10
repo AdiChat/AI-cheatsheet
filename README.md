@@ -127,8 +127,10 @@ Insights:
 
 - [ ] [MinMax M2 using Full Attention](https://x.com/zpysky1125/status/1983383094607347992): why full attention is better than masked attention?
 
-SGLang
+Practical:
 
+- [ ] [CUDA Compiler & PTX](https://blog.alpindale.net/posts/top_k_cuda/) with example
+- [ ] [CUTLASS](https://www.kapilsharma.dev/posts/learn-cutlass-the-hard-way/): template library to code in CUDA easily
 - [ ] [SGLang inference engine architecture](https://github.com/sgl-project/sgl-learning-materials/blob/main/slides/lmsys_1st_meetup_sglang.pdf)
 
 
