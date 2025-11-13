@@ -67,7 +67,7 @@ GPU programming concepts:
 - [ ] [CME 295](https://cme295.stanford.edu/syllabus/): Basics of Transformer and LLM course by Stanford University
 - [ ] [Transformer overall](https://www.krupadave.com/articles/everything-about-transformers): Encoder-only and Decoder-only models
 - [ ] BERT (_insightful_): [BERT as text diffusion step](https://nathan.rs/posts/roberta-diffusion/)
-- [ ] [Memory requirements for LLM](https://themlsurgeon.substack.com/p/the-memory-anatomy-of-large-language). There are 4 parts: activation, parameter, gradient, optimizer states.
+- [ ] [Memory requirements for LLM](https://themlsurgeon.substack.com/p/the-memory-anatomy-of-large-language). There are 4 parts: activation, parameter, gradient, optimizer states. [How LLM handle memory?](https://fastpaca.com/blog/llm-memory-systems-explained)
 
 * **Attention**
 
@@ -96,6 +96,7 @@ GPU programming concepts:
 - [ ] [NVFP4 training](https://developer.nvidia.com/blog/nvfp4-trains-with-precision-of-16-bit-and-speed-and-efficiency-of-4-bit/), [Optimizing FP4 Mixed-Precision Inference on AMD GPUs](https://lmsys.org/blog/2025-09-21-petit-amdgpu/), Recent [LLM quantization progress](https://blog.openvino.ai/blog-posts/q325-technology-update---low-precision-and-model-optimization)
 - [ ] [Quantization on CPU (GGUF, AWQ, GPTQ)](https://www.ionio.ai/blog/llms-on-cpu-the-power-of-quantization-with-gguf-awq-gptq), [GGUF quantization method](https://www.reddit.com/r/LocalLLaMA/comments/1ba55rj/overview_of_gguf_quantization_methods/), [GPTQ](https://arxiv.org/pdf/2210.17323): Post training quantization for LLM. OBQ: [Post-Training Quantization and Pruning](https://arxiv.org/pdf/2208.11580)
 - [ ] [Mixed precision training](https://docs.nvidia.com/deeplearning/performance/mixed-precision-training/index.html)
+- [ ] [NVFP4](https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/), [GEMV kernel](https://veitner.bearblog.dev/nvfp4-gemv/) for NVFP4
 ---
 - [ ] [Pruning and distillation](https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/)
 
