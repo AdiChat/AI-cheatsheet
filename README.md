@@ -43,6 +43,7 @@ MUST:
 - [ ] [NVIDIA Developer Blog](https://developer.nvidia.com/blog/): Deep dive into multiple AI topics.
 - [ ] [TensorRT LLM tech blogs](https://github.com/NVIDIA/TensorRT-LLM/tree/main/docs/source/blogs/tech_blog): Deep dive into technical techniques/optimizations in one of the leading LLM inference library. (13 posts as of now)
 - [ ] [SGLang tech blog](https://lmsys.org/blog/): SGLang is one of the leading LLM serving framework. Most blogs are around SGLang but is rich in technical information.
+- [ ] [AI System co-design](https://aisystemcodesign.github.io/) at Meta
 
 YouTube channels to follow regularly:
 
