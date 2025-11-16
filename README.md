@@ -64,6 +64,9 @@ GPU programming concepts:
 - [ ] [CUDA programming model](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/), [GPU memory management](https://www.nvidia.com/en-us/on-demand/session/gtc24-s62550/): Mark Harris's GTC Talk on Coalesced Memory Access, [Prefix Sum/ Scan in GPU](https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-39-parallel-prefix-sum-scan-cuda)
 - [ ] [Programming Massively Parallel Processors](https://www.youtube.com/playlist?list=PLRRuQYjFhpmubuwx-w8X964ofVkW1T8O4) series on YT
 
+* Performance
+- [ ] [Performance metrics](https://github.com/NVIDIA/nccl-tests/blob/master/doc/PERFORMANCE.md#performance-reported-by-nccl-tests) by nccl tests, [Profiling guide](https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#profiling-guide) by Nsight, [Understanding DL performance](https://horace.io/brrr_intro.html)
+
 * **Transformer**
 - [ ] [CME 295](https://cme295.stanford.edu/syllabus/): Basics of Transformer and LLM course by Stanford University
 - [ ] [Transformer overall](https://www.krupadave.com/articles/everything-about-transformers): Encoder-only and Decoder-only models
