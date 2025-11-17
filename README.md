@@ -25,17 +25,19 @@ MUST:
 
 ---
 
-## Interesting papers you MUST read
+## Core AI engineering papers you MUST read
 
 <img height="50" alt="image" src="https://github.com/user-attachments/assets/b0bcbfd3-5e89-4133-89a3-55e858fa82a5" /> <img height="50" alt="image" src="https://github.com/user-attachments/assets/50fbc127-b4b2-4bb9-8f02-cc72ad126da0" />
 
 - [ ] [AI and memory wall](https://arxiv.org/pdf/2403.14123): How memory is the main bottleneck for LLM?
-- [ ] [LLMs don't just memorize, they build a geometric map that helps them reason](https://arxiv.org/pdf/2510.26745) by Google
-- [ ] [Self-Adapting Language Models](https://arxiv.org/pdf/2506.10943) by MIT
 - [ ] [Collective Communication for 100k+ GPUs](https://arxiv.org/abs/2510.20171) by Meta
+- [ ] [The Landscape of GPU-Centric Communication](https://arxiv.org/pdf/2409.09874v2)
 - [ ] [Pre-training under infinite compute](https://arxiv.org/pdf/2509.14786) by Stanford University
 - [ ] [Give Me BF16 or Give Me Death](https://arxiv.org/pdf/2411.02355) by RedHat and [Give Me FP32 or Give Me Death?](https://arxiv.org/pdf/2506.09501v1)
 
+Others:
+- [ ] [LLMs don't just memorize, they build a geometric map that helps them reason](https://arxiv.org/pdf/2510.26745) by Google
+- [ ] [Self-Adapting Language Models](https://arxiv.org/pdf/2506.10943) by MIT
 ---
 
 ## Main AI blogs to read regularly (continuous learning)
@@ -101,6 +103,7 @@ GPU programming concepts:
 - [ ] [Quantization on CPU (GGUF, AWQ, GPTQ)](https://www.ionio.ai/blog/llms-on-cpu-the-power-of-quantization-with-gguf-awq-gptq), [GGUF quantization method](https://www.reddit.com/r/LocalLLaMA/comments/1ba55rj/overview_of_gguf_quantization_methods/), [GPTQ](https://arxiv.org/pdf/2210.17323): Post training quantization for LLM. OBQ: [Post-Training Quantization and Pruning](https://arxiv.org/pdf/2208.11580)
 - [ ] [Mixed precision training](https://docs.nvidia.com/deeplearning/performance/mixed-precision-training/index.html)
 - [ ] [NVFP4](https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/), [GEMV kernel](https://veitner.bearblog.dev/nvfp4-gemv/) for NVFP4
+- [ ] [Details on FP8 training](https://research.colfax-intl.com/deepseek-r1-and-fp8-mixed-precision-training/)
 ---
 - [ ] [Pruning and distillation](https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/)
 
@@ -136,7 +139,10 @@ Practical:
 
 - [ ] [CUDA Compiler & PTX](https://blog.alpindale.net/posts/top_k_cuda/) with example
 - [ ] [CUTLASS](https://www.kapilsharma.dev/posts/learn-cutlass-the-hard-way/): template library to code in CUDA easily
+- [ ] [Matrix transpose using CUTLASS](https://research.colfax-intl.com/tutorial-matrix-transpose-in-cutlass/)
 - [ ] [SGLang inference engine architecture](https://github.com/sgl-project/sgl-learning-materials/blob/main/slides/lmsys_1st_meetup_sglang.pdf)
+- [ ] [FlexAttention using CuTE DSL](https://research.colfax-intl.com/a-users-guide-to-flexattention-in-flash-attention-cute-dsl/)
+- [ ] [MatMul using WGMMA](https://research.colfax-intl.com/cutlass-tutorial-wgmma-hopper/), [GEMM with pipelining in CUTLASS](https://research.colfax-intl.com/cutlass-tutorial-design-of-a-gemm-kernel/)
 
 
 ## MAYBE guides you may go through
@@ -145,6 +151,7 @@ Practical:
 - [ ] [Smol training playbook](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction) by HuggingFace to train LLMs
 - [ ] [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3): if you want to dive deep into GPU programming
 - [ ] (blog) [OpenVINO optimizations and engineering](https://blog.openvino.ai/) by Intel
+- [ ] (blog) [Engineering posts by Colfax Research](https://research.colfax-intl.com/blog/)
 - [ ] (blog) [GPU MODE lecture notes](https://christianjmills.com/series/notes/cuda-mode-notes.html)
 - [ ] (blog) [Connectionism- Thinking Machine blog](https://thinkingmachines.ai/blog/): AI startup. Founded by Mira Murati, former CTO at OpenAI. Solved nondeterminism problem in LLM.
 
